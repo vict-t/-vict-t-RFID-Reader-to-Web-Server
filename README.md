@@ -43,6 +43,5 @@ When the administrator clicking the edit button next to the patient information,
  
 The Edit interface (update.php)  
 Notice that the ID is not changeable in the form.
-
-![image](https://user-images.githubusercontent.com/44689459/169725980-337dedc3-b815-4eae-b5dc-1ca1e9abbea2.png)
+![image](https://user-images.githubusercontent.com/44689459/169729024-ee8a8570-6ed8-4338-87e8-0366b9cd9988.png)
 
