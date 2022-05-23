@@ -24,6 +24,12 @@ The RFID RC522 Module is used in this project. The reader reads the RFID tags an
 The above components allows the microcontroller to upload the RFID card number to the local server and display it on the website. The theory is that once the RFID card is tapped to the reader, the microcontroller will get the card number and send it to the server by HTTP GET Request, which contains the PHP file directory and the information used to insert to the database.
 
 ### Code attached for Arduino Board, RFID card reader
+Initialize ESP8266 Wi-Fi Module to connect WIFI and connect to the local server:
+
+![image](https://user-images.githubusercontent.com/44689459/169762728-19fdf76a-e297-4ca2-92d4-7120095bba1c.png)
+
+RFID card read process:
+
 ![image](https://user-images.githubusercontent.com/44689459/169726585-498eaff8-8a89-4f94-a678-246f754459be.png)
 ![image](https://user-images.githubusercontent.com/44689459/169726642-bfb8f5d0-c238-405b-8d38-b661e84d3c19.png)
 
