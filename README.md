@@ -7,7 +7,7 @@
 ## Hardware description
 For the hardware module, the Arduino Mega microcontroller communicated with multiple external hardware modules, RFID module, WIFI module to connect local server in SQL format. The following image is the block diagram illustate how Arduino Mega microcontroller that communicated with multiple external hardware module.
 
-![image](https://user-images.githubusercontent.com/44689459/169758657-a1e0c513-dcfd-4b3c-b881-6c7c53dbaf01.png)
+![image](https://user-images.githubusercontent.com/44689459/169758726-1c96efc3-b321-443b-82ab-8300f9cba5b6.png)
 
 ### Database 
 The Database is a RDBMS (relational database management systems) storing data in tables. The patient personal information, their medicine intake record and the medicine name are storing in the RDBMS. To manage the relational database, the operator could use SQL command to perform various operation and run certain query. For example, update, delete, insert, display the data in certain condition.
