@@ -9,13 +9,15 @@ For the hardware module, the Arduino Mega microcontroller communicated with mult
 
 ![image](https://user-images.githubusercontent.com/44689459/169726733-4b0207fd-c32e-4794-a6aa-55734f98767d.png)
 
+### Database 
 The Database is a RDBMS (relational database management systems) storing data in tables. The patient personal information, their medicine intake record and the medicine name are storing in the RDBMS. To manage the relational database, the operator could use SQL command to perform various operation and run certain query. For example, update, delete, insert, display the data in certain condition.
 
 The data in the RDBMS could be displayed on the webpage using PHP, a server script language, request and query the selected information on the client-side webpage. The database interface allows the administrator to search and revise user information, and monitoring user medicine intake log.
 
+### ESP8266 Wi-Fi Module
 The ESP8266 Wi-Fi Module is used to upload and download the data from the database by sending the HTTP TCP request packet to the local HTTP server. The packet contains the URL, which is the directory of the PHP file, containing the SQL command to the server to compile certain operation, like insert, update new entry of the database.
 
-
+### RFID RC522 Module
 The RFID RC522 Module is used in this project. The reader reads the RFID tags and cards. Since no data is stored inside the UID card, no blocks have been used. The most important part is obtaining the UID. The UID first obtained is in byte form. Byte to string conversion is done in order to pass the UID to the database.
 
 
