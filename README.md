@@ -5,7 +5,7 @@
 - Display User Infomation in the website that is designed with PHP, SQL, HTML, and CSS language. The website interface allows the administrator to search, revise and delete user information. 
 
 ## Hardware description
-For the hardware module, the Arduino Mega microcontroller communicated with multiple external hardware modules, RFID module, WIFI module to connect local server in SQL format.
+For the hardware module, the Arduino Mega microcontroller communicated with multiple external hardware modules, RFID module, WIFI module to connect local server in SQL format. The following image is the block diagram illustate how Arduino Mega microcontroller that communicated with multiple external hardware module.
 
 ![image](https://user-images.githubusercontent.com/44689459/169726733-4b0207fd-c32e-4794-a6aa-55734f98767d.png)
 
