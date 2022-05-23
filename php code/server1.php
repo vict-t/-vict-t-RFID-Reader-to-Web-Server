@@ -65,17 +65,17 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"])))
 </form>
 
 <table class="table">
-			<thead class="thead-light">
-				<th>Name</th>
-				<th>ID</th>
+	<thead class="thead-light">
+	<th>Name</th>
+	<th>ID</th>
         <th>Gender</th>
         <th>Birthday</th>
-				<th>Contact</th>
-				<th>Card ID</th>
+	<th>Contact</th>
+	<th>Card ID</th>
         <th>Edit</th>                
-			</thead>
+	</thead>
 <?php 
-	$sql =  "SELECT * ";
+    $sql =  "SELECT * ";
     $sql .= "FROM patient ";
     if (!empty($id)){
         $sql .= "WHERE p_id = ". $id ." ";
@@ -84,29 +84,28 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"])))
     
     $result = mysqli_query($conn, $sql);
 	while($row = mysqli_fetch_array($result)){
-
 		$name = $row['p_name'];
 		$ID = $row['p_id'];
-    $Gender = $row['Gender'];
-    $bid = $row['Birthday'];		
+   		$Gender = $row['Gender'];
+   		 $bid = $row['Birthday'];		
 		$contact = $row['phone_no'];
 		$cardId = $row['card_id'];
  ?>
-			<tbody>
-				<tr>
-					<td><?php echo $name; ?></td>
-					<td><?php echo $ID; ?></td>
-          <td><?php echo $Gender; ?></td>
-					<td><?php echo $bid; ?></td>
-					<td><?php echo $contact; ?></td>
-					<td><?php echo $cardId; ?></td>
+	<tbody>
+		<tr>
+		<td><?php echo $name; ?></td>
+		<td><?php echo $ID; ?></td>
+          	<td><?php echo $Gender; ?></td>
+		<td><?php echo $bid; ?></td>
+		<td><?php echo $contact; ?></td>
+		<td><?php echo $cardId; ?></td>
           <?php echo '<td><a href="update.php?id='.$row['p_id'].'" class="btn btn-secondary" tabindex="-1" role="button" aria-disabled="true">Edit</a>'; ?>
           <?php echo '<a href="delete.php?id='.$row['p_id'].'" class="btn btn-danger" tabindex="-1" role="button" aria-disabled="true">DELETE</a></td>'; ?>
-				</tr>
-			</tbody>
+		</tr>
+	</tbody>
 <?php 	
 } ?>
-		</table>
+</table>
 
 <br><br>
 
