@@ -33,7 +33,8 @@ After tapping the card, the Arduino board will send a TCP packet to the server, 
 ![image](https://user-images.githubusercontent.com/44689459/169728348-cb815601-877b-44b2-8845-27bd987a5e8f.png)
 
 ![image](https://user-images.githubusercontent.com/44689459/169728765-c32670ba-aecd-4684-84ed-4a9fde8f493e.png)
-For the Patient information page, the admin can search the specific user information by typing the corresponding ID. 
+
+The attached image is the capture of the database interface (server1.php). For the Patient information page, the admin can search the specific user information by typing the corresponding ID.
 
 ![image](https://user-images.githubusercontent.com/44689459/169728892-26c82a09-70d8-426b-b41d-f43c9866bb01.png)
 
