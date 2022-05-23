@@ -21,7 +21,7 @@ The ESP8266 Wi-Fi Module is used to upload and download the data from the databa
 The RFID RC522 Module is used in this project. The reader reads the RFID tags and cards. Since no data is stored inside the UID card, no blocks have been used. The most important part is obtaining the UID. The UID first obtained is in byte form. Byte to string conversion is done in order to pass the UID to the database.
 
 
-It allows the microcontroller to upload the RFID card number to the local server and display it on the website. The theory is that once the RFID card is tapped to the reader, the microcontroller will get the card number and send it to the server by HTTP GET Request, which contains the PHP file directory and the information used to insert to the database.
+The above components allows the microcontroller to upload the RFID card number to the local server and display it on the website. The theory is that once the RFID card is tapped to the reader, the microcontroller will get the card number and send it to the server by HTTP GET Request, which contains the PHP file directory and the information used to insert to the database.
 
 ### Code attached for Arduino Board, RFID card reader
 ![image](https://user-images.githubusercontent.com/44689459/169726585-498eaff8-8a89-4f94-a678-246f754459be.png)
