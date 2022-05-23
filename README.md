@@ -29,7 +29,7 @@ The above components allows the microcontroller to upload the RFID card number t
 
 ## Demo
 
-It will start after the ESP8266 connected to the wifi and the local server. The OLED Display and the Serial monitor will ask the user to tap their card first. 
+It will start after the ESP8266 connected to the wifi and the local server. The OLED Display and the Serial monitor will display a message to ask the user to tap their card first. 
 
 After tapping the card, the Arduino board will send a TCP packet to the server, which is GET method HTTP require containing the php file directory (TX.php) and the information that used to insert to the database. The admin could edit that person information by clicking the edit key. 
 
