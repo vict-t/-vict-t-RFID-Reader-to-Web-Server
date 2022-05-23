@@ -30,13 +30,12 @@ It will start after the ESP8266 connected to the wifi and the local server. The 
 
 After tapping the card, the Arduino board will send a TCP packet to the server, which is GET method HTTP require containing the php file directory (TX.php) and the information that used to insert to the database. The admin could edit that person information by clicking the edit key. 
 
-![image](https://user-images.githubusercontent.com/44689459/169727795-37ee4908-d07d-4fa0-8246-6f8bd4f4b6ab.png)
-![image](https://user-images.githubusercontent.com/44689459/169725846-09369d1c-b1b6-479c-ba34-239e2c8a77e3.png)
+![image](https://user-images.githubusercontent.com/44689459/169728348-cb815601-877b-44b2-8845-27bd987a5e8f.png)
 
-
+![image](https://user-images.githubusercontent.com/44689459/169728765-c32670ba-aecd-4684-84ed-4a9fde8f493e.png)
 For the Patient information page, the admin can search the specific user information by typing the corresponding ID. 
-![image](https://user-images.githubusercontent.com/44689459/169725855-60d9abee-4329-4856-9d69-1b2579189a1b.png)
 
+![image](https://user-images.githubusercontent.com/44689459/169728892-26c82a09-70d8-426b-b41d-f43c9866bb01.png)
 
 When the administrator clicking the edit button next to the patient information, it will direct to the corresponding edit page.
 ![image](https://user-images.githubusercontent.com/44689459/169725909-92d508b8-468d-483e-8e09-bce198961647.png)
