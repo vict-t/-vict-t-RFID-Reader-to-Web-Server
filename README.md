@@ -11,7 +11,7 @@ For the hardware module, the Arduino Mega microcontroller communicated with mult
 
 The Database is a RDBMS (relational database management systems) storing data in tables. The patient personal information, their medicine intake record and the medicine name are storing in the RDBMS. To manage the relational database, the operator could use SQL command to perform various operation and run certain query. For example, update, delete, insert, display the data in certain condition.
 
-The data in the RDBMS could display on the webpage using PHP, a server script language, request and query the selected information on the client-side webpage. The database interface allows the administrator to search and revise user information, and monitoring user medicine intake log.
+The data in the RDBMS could be displayed on the webpage using PHP, a server script language, request and query the selected information on the client-side webpage. The database interface allows the administrator to search and revise user information, and monitoring user medicine intake log.
 
 The ESP8266 Wi-Fi Module is used to upload and download the data from the database by sending the HTTP TCP request packet to the local HTTP server. The packet contains the URL, which is the directory of the PHP file, containing the SQL command to the server to compile certain operation, like insert, update new entry of the database.
 
@@ -45,3 +45,8 @@ The Edit interface (update.php)
 Notice that the ID is not changeable in the form.
 ![image](https://user-images.githubusercontent.com/44689459/169729024-ee8a8570-6ed8-4338-87e8-0366b9cd9988.png)
 
+
+ 
+The Delete interface (delete.php)  
+After clicking the delete button, the patient information will be deleted.
+![image](https://user-images.githubusercontent.com/44689459/169729841-8ccd982f-37c2-4b47-8dc7-3f94c07b5905.png)
