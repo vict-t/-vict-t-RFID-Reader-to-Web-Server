@@ -49,5 +49,4 @@ Notice that the ID is not changeable in the form.
  
 The Delete interface (delete.php)  
 After clicking the delete button, the patient information will be deleted.
-
-![image](https://user-images.githubusercontent.com/44689459/169729841-8ccd982f-37c2-4b47-8dc7-3f94c07b5905.png)
+![image](https://user-images.githubusercontent.com/44689459/169729933-3b1c4d3a-75ae-47d9-8256-2f8bd0d2e33a.png)
